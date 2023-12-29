@@ -1,0 +1,72 @@
+:root {
+    --text: #05130b;
+    --background: #f1fbf5;
+    --primary: #52d188;
+    --secondary: #98d2e2;
+    --accent: #669fd3;
+    --card-radius: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Zen%20Kaku%20Gothic%20New:700|Zen%20Kaku%20Gothic%20New:400');
+
+body {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 400;
+    background-color: var(--background);
+    color: var(--text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 700;
+}
+
+html {
+    font-size: 100%;
+}
+
+/* 16px */
+
+h1 {
+    font-size: 3.053rem;
+    /* 48.8px */
+}
+
+h2 {
+    font-size: 2.442rem;
+    /* 39.04px */
+}
+
+h3 {
+    font-size: 1.954rem;
+    /* 31.2px */
+}
+
+h4 {
+    font-size: 1.563rem;
+    /* 24.96px */
+}
+
+h5 {
+    font-size: 1.250rem;
+    /* 20px */
+}
+
+small {
+    font-size: 0.800rem;
+    /* 12.8px */
+}
+
+.navbar {
+    color: var(--primary);
+}
+
+.content-card {
+    background-color: var(--secondary);
+    border-radius: var(--card-radius);
+    padding: 10px;
+}
