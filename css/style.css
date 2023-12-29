@@ -5,6 +5,7 @@
     --secondary: #98d2e2;
     --accent: #669fd3;
     --card-radius: 10px;
+    --body-margin: 10%;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Zen%20Kaku%20Gothic%20New:700|Zen%20Kaku%20Gothic%20New:400');
@@ -14,6 +15,8 @@ body {
     font-weight: 400;
     background-color: var(--background);
     color: var(--text);
+    margin-right: var(--body-margin);
+    margin-left: var(--body-margin);
 }
 
 h1,
